@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin: 125px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table thead{
+    background-color: rgb(4, 151, 4);
+    color: white;
+}
+
+table thead th{
+    padding: 15px;
+}
+
+table thead th, tbody td{
+    border: 2px solid green;
+}
